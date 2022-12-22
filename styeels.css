@@ -1,0 +1,185 @@
+html {
+    font-family:'raleway', cursive;
+    
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    position:sticky;
+    top:0px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    opacity: 100%;
+    padding: 0px;
+    border-style: solid;
+    border-radius: 20px;
+    z-index: 1;
+
+
+}
+.header-li {
+    position: relative;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 600;
+   
+}
+
+.header-li :hover {
+font-size: larger;
+}
+
+
+.header-nav {
+    margin: 5px;
+    font-weight: bold;
+    font-size: 35;
+    
+   
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1564632720996-d3bf0b286a56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  height: 2000px;
+}
+
+.fotter {
+    position: fixed;
+    bottom:  0px;
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-style:solid;
+    border-width: 1px;
+    opacity: 80%;
+    height: 55px;
+    margin: 0px;
+}
+.fotter-button {
+position: relative;
+left: 4px;
+top: 5px;
+bottom: 0px;
+margin: 0px;
+margin-bottom: 0px;
+border-radius: 20px;
+background-color: rgb(255, 255, 255);
+font-size: larger;
+border-color: rgb(114, 114, 114);
+border-width: 5px;
+padding: 3px;
+}
+.fotter-button:hover {
+    background-color: rgb(131, 131, 131);
+    font-size: 23px;
+    border-color: aliceblue;
+
+}
+
+a{
+    color: black;
+
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: wavy;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  .photo {
+    height: 250px;
+    width: 250px;
+    margin: 40px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+  .photos-main{
+    width: 50px;
+    height: 0px;
+    position: relative;
+    left: 400px;
+    
+  }
+  .list-1 {
+    position: relative ;
+    font-size: x-large;
+    color: aliceblue;
+    background-color: rgb(157, 157, 181);
+    width: fit-content;
+    height: 200px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: 10px;
+    top: 250px;
+    border-color: black;
+    opacity: 85%;
+  }
+
+  .list-1child {
+    font-size: xx-large;
+    margin-top: 3px;
+    margin: 10px;
+    color: black;
+  }
+  .table {
+    position: relative;
+    top: 500px;
+  }
+  .food {
+  background-color: gold;
+    bottom: 0px;
+    border-style:solid;
+    width: fit-content;
+    padding: 5px;
+    margin-bottom: 4px;
+    border-radius: 10px
+
+  }
+.food-list {
+  
+  font-size: xx-large;
+  top:400px;
+  border-style: solid;
+  background-color: darkgray;
+  width: 200px;
+  margin-top: 0px;
+  border-radius: 10px;
+  padding: 5px;
+  opacity: 85%;
+}
+
+.food-parent {
+  position: relative;
+  bottom: -250px;
+}
+
+#darkButton {
+  position: relative;
+  bottom: 150px;
+  right: 0px;
+  margin-top: 20px;
+  padding: 15px;
+  border-style: groove;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-width: 3px;
+  background-color: darkorange;
+  font-size: x-large;
+  font-weight: 700;
+  opacity: 90%;
+}
+

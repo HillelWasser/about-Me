@@ -1,0 +1,68 @@
+<head>
+    <title>Hillel's-Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="/styeels.css">
+   
+</head>
+<body class="darkStyle">
+
+ <div class="header">
+    <p class="header-nav">Navigation Bar</p>
+    <ul class="header-li">
+        <li><a href="https://www.google.com/maps/place/Ben+Yehuda+St+22,+Tel+Aviv-Yafo/@32.0752428,34.7660052,17z/data=!3m1!4b1!4m5!3m4!1s0x151d4c87561b32d1:0x5ec60ee08df5f254!8m2!3d32.0752428!4d34.7681939">Home Town</a></li>
+        <li><a href="https://www.google.com/maps/place/Ben+Yehuda+St+22,+Tel+Aviv-Yafo/@32.0752428,34.7660052,17z/data=!3m1!4b1!4m5!3m4!1s0x151d4c87561b32d1:0x5ec60ee08df5f254!8m2!3d32.0752428!4d34.7681939">Photos</a></li>
+        <li><a href="https://www.google.com/maps/place/Ben+Yehuda+St+22,+Tel+Aviv-Yafo/@32.0752428,34.7660052,17z/data=!3m1!4b1!4m5!3m4!1s0x151d4c87561b32d1:0x5ec60ee08df5f254!8m2!3d32.0752428!4d34.7681939">Familiy</a></li>
+
+    </ul>
+    <button id="darkButton" onclick="lightOrDark()">Dark Mode</button>
+ </div>
+
+ <div class="photos-main">
+    <img class="photo" src="/assets/dog1.jpeg" alt="hiking">
+    <img class="photo" src="/assets/dog2.jpeg" alt="snow">
+    <img class="photo" src="/assets/dog3.jpeg" alt="snow">
+    
+ </div>
+ <div class="list">
+    <ul class="list-1">
+        <li class="list-1child" id="placesILove" onclick="delayHandleClick('placesILove')">places i love</li>
+        <li class="list-1child" id="contactMe" onclick="delayHandleClick('contactMe')">contact me</li>
+    </ul>
+ </div>
+ <div class="food-parent">
+ <h2 class="food">my favorite food</h2>
+    <ul class="food-list">
+        <li>pizza</li>
+        <li>cheese</li>
+        <li>tomato</li>
+        <li>honey</li>
+        </ul>
+    </div>
+  
+ <div>
+<footer class="fotter">
+ <button class="fotter-button">click to see more!</button>
+</footer>
+ </div>
+ <div class="table">
+    <table width="400" border="black">
+        <tr  bgcolor="grey">
+        <th bgcolor="grey">pros</th> 
+        <th bgcolor="grey">cons</th>
+        </tr>
+        <tr>
+            <td width="200" length="200" bgcolor="lightblue">peapole</td>
+            <td width="200" bgcolor="lightgreen">smoke</td>
+        </tr>
+        <tr>
+            <td bgcolor="lightblue">food</td>
+            <td bgcolor="lightgreen">security</td>
+        </tr>
+        <tr>
+            <td bgcolor="lightblue">distance</td>
+            <td bgcolor="lightgreen">noise</td>
+        </tr>
+        </table>
+</div>
+</body>
+<script src="/main.js"></script>
