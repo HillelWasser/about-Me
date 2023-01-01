@@ -208,3 +208,31 @@ a:link {
     border-color: black;
     opacity: 85%;
 }
+
+.gallery {
+  color: black;
+  font-size: xx-large;
+  background-color: rgb(234, 228, 124);
+  border-style: solid;
+  border-radius: 10%;
+  width: 300px;
+  position: relative;
+  height:fit-content;
+  padding: 10px;
+  left: 800px;
+  bottom: 100px;
+}
+
+.images {
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 30px;
+  border-style: solid;
+  border-color: black;
+  margin: 10px;
+}
+.descImg {
+  color: rgb(16, 16, 16);
+padding: 10px;
+margin: 25px;
+}
